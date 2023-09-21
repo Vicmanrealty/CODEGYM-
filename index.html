@@ -1,37 +1,86 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <title>CodeGym PR</title>
 <style>
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
 }
+
 .header {
     display: flex;
     align-items: center;
-    background-color: #f8f9fa;
+    background-color: #fff;
     padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .header img {
-    width: 100px; /* Ajusta según el tamaño de tu logo */
+    width: 100px; 
     margin-right: 20px;
+    border-radius: 50%;
+    transition: transform 0.3s;
 }
+
+.header img:hover {
+    transform: scale(1.1);
+}
+
 .header h1 {
-    color: blue; /* Cambia 'blue' por cualquier otro color que prefieras */
+    color: #2c3e50;
+    margin: 0;
+    font-size: 2em;
 }
+
 .container {
     padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .container p, .container li {
-    margin: 0;
+    margin: 8px 0;
 }
+
 .container ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
+
+.container a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: #2980b9;
+}
+
 .contact-info {
     margin-top: 20px;
+}
+
+.contact-info strong {
+    color: #2c3e50;
+}
+
+.container ul li {
+    background-color: #f8f9fa;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.container ul li:hover {
+    background-color: #e9ecef;
 }
 </style>
 </head>
